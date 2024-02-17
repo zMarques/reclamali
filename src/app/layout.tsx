@@ -7,6 +7,7 @@ const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
   title: "Reclame ali",
+  description: 'O Reclame ali destaca-se como a principal plataforma de redirecionamento de reclamações no Brasil, assumindo um papel fundamental de redirecionar suas reclamações ali.'
 };
 
 export default function RootLayout({
@@ -15,7 +16,7 @@ export default function RootLayout({
   children: React.ReactNode;
 }) {
   return (
-    <html lang="en">
+    <html lang="pt-BR">
       <body className={inter.className}>
         {children}
         <Analytics />
